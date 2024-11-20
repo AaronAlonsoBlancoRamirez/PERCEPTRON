@@ -1,0 +1,31 @@
+main.py: Archivo principal que ejecuta el programa.
+
+network.py: Definición de la clase que modela el perceptrón multicapa.
+
+utils.py: Funciones auxiliares como funciones de activación.
+
+mnist_loader.py: Cargar y preparar el dataset MNIST.
+
+train.py: Controla el proceso de entrenamiento.
+
+weights.npy: Archivo opcional para guardar los pesos.
+
+visualize.py (opcional): Archivo para visualizar los resultados del entrenamiento.
+
+////////////////////////////////////////////// TRABAJREMOS CON TENSORFLOW Y  ANACONDA POR LO QUE NECESITAMOS ESOS COMANDOS
+
+conda create -n tf_env python=3.8
+conda activate tf_env
+pip install tensorflow
+pip install numpy
+pip install matplotlib
+pip install scikit-learn
+pip install jupyter
+pip install pillow
+
+////// solucion para el entorno que me funciono
+
+conda install python=3.8
+python -m ensurepip --upgrade
+python -m pip install --upgrade pip
+
